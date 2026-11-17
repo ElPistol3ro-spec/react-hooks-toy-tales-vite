@@ -42,3 +42,53 @@ be stored.
   should be sent in the body of the PATCH request, as a object:
   `{ likes: 10 }`), to update the toy on the server. Clicking on the button
   should also increase the number of likes on the DOM.
+
+
+# Toy Tales
+
+A React single-page application that lets users browse a collection of toys, create new toys, like existing toys, and donate toys to remove them from the collection.
+
+## Screenshot
+
+![Toy Tales Application Screenshot](./public/screenshot.png
+
+## Features
+
+- **Display All Toys (`GET`):** Fetches and renders the full list of toys from the JSON backend on page load.
+- **Add a New Toy (`POST`):** Toggles a controlled form to create a new toy with a name, image URL, and `0` initial likes, persisting it to the backend.
+- **Like a Toy (`PATCH`):** Increases a toy's like count on the backend and updates the card in place without changing the display order.
+- **Donate a Toy (`DELETE`):** Deletes a toy from the backend and immediately removes its card from the page.
+
+## Tech Stack
+
+- **Frontend:** React, Vite, CSS
+- **Backend:** JSON Server (`db.json`)
+
+## Setup and Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   cd react-hooks-toy-tales-vite
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the backend server:**
+   ```bash
+   npm run server
+   ```
+
+4. **Start the frontend development server (in a new terminal):**
+   ```bash
+   npm run dev
+   ```
+
+5. **Run the test suite (optional):**
+   ```bash
+   npm run test
+   ```
+
