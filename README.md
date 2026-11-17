@@ -50,7 +50,7 @@ A React single-page application that lets users browse a collection of toys, cre
 
 ## Screenshot
 
-![Toy Tales Application Screenshot](./public/screenshot.png
+![Toy Tales Application Screenshot](./public/screenshot.png)
 
 ## Features
 
